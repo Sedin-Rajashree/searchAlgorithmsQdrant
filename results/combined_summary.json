@@ -1,0 +1,62 @@
+[
+  {
+    "Method": "Exact Brute-Force",
+    "Parameters": "exact=True",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "14.382 ms"
+  },
+  {
+    "Method": "HNSW Default (m=16)",
+    "Parameters": "ef=16",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "12.762 ms"
+  },
+  {
+    "Method": "HNSW Default (m=16)",
+    "Parameters": "ef=64",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "10.747 ms"
+  },
+  {
+    "Method": "HNSW Default (m=16)",
+    "Parameters": "ef=128",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "16.040 ms"
+  },
+  {
+    "Method": "HNSW Under-Tuned (m=4)",
+    "Parameters": "ef=16",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "9.191 ms"
+  },
+  {
+    "Method": "HNSW Under-Tuned (m=4)",
+    "Parameters": "ef=64",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "9.814 ms"
+  },
+  {
+    "Method": "HNSW Under-Tuned (m=4)",
+    "Parameters": "ef=128",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "9.817 ms"
+  },
+  {
+    "Method": "Custom IVF (k=32)",
+    "Parameters": "nprobe=1",
+    "Top-5 Overlap (%)": "72.0%",
+    "Avg Latency (ms)": "0.168 ms"
+  },
+  {
+    "Method": "Custom IVF (k=32)",
+    "Parameters": "nprobe=8",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "4.331 ms"
+  },
+  {
+    "Method": "Custom IVF (k=32)",
+    "Parameters": "nprobe=16",
+    "Top-5 Overlap (%)": "100.0%",
+    "Avg Latency (ms)": "3.571 ms"
+  }
+]

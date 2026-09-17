@@ -1,0 +1,627 @@
+{
+  "query_1": {
+    "query": "What are the best GPU driver settings for 3D graphics rendering performance?",
+    "metrics": {
+      "cosine": {
+        "latency_ms": 13.348,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 5068,
+            "score": 0.52007,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "Yesterday, a friend of mine got a new driver for his card that more\nthan doubled the speed... Naturally, besides being a..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 567,
+            "score": 0.49684,
+            "category": "misc.forsale",
+            "text_snippet": "I have the following Nth Engine graphics cards for sale w/drivers for \nAutoCAD R11. Display list proccessing is done thr..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 2833,
+            "score": 0.49365,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "ok, i have a 486dx50(ISA) w/ Diamond Stealth VRAM 1MB.\nI was really satisfied w/ its performance in windows.\nbut now mor..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 5240,
+            "score": 0.49035,
+            "category": "comp.sys.ibm.pc.hardware",
+            "text_snippet": "Due to the large amount of request for 3dbench of ET4000/W32,\nI finally can get a 3dbench v1.0 from a ftp site.\n\nThe 3db..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 4169,
+            "score": 0.46114,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "On ftp.cica.indiana.edu in pub/pc/win3/misc/winadv.zip is a writeup by\nSteve Gibson of InfoWorld with winbench 3.11 and ..."
+          }
+        ]
+      },
+      "euclidean": {
+        "latency_ms": 16.924,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 5068,
+            "score": 0.97972,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "Yesterday, a friend of mine got a new driver for his card that more\nthan doubled the speed... Naturally, besides being a..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 567,
+            "score": 1.00315,
+            "category": "misc.forsale",
+            "text_snippet": "I have the following Nth Engine graphics cards for sale w/drivers for \nAutoCAD R11. Display list proccessing is done thr..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 2833,
+            "score": 1.00633,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "ok, i have a 486dx50(ISA) w/ Diamond Stealth VRAM 1MB.\nI was really satisfied w/ its performance in windows.\nbut now mor..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 5240,
+            "score": 1.00961,
+            "category": "comp.sys.ibm.pc.hardware",
+            "text_snippet": "Due to the large amount of request for 3dbench of ET4000/W32,\nI finally can get a 3dbench v1.0 from a ftp site.\n\nThe 3db..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 4169,
+            "score": 1.03814,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "On ftp.cica.indiana.edu in pub/pc/win3/misc/winadv.zip is a writeup by\nSteve Gibson of InfoWorld with winbench 3.11 and ..."
+          }
+        ]
+      },
+      "dot": {
+        "latency_ms": 11.978,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 5068,
+            "score": 0.52007,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "Yesterday, a friend of mine got a new driver for his card that more\nthan doubled the speed... Naturally, besides being a..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 567,
+            "score": 0.49684,
+            "category": "misc.forsale",
+            "text_snippet": "I have the following Nth Engine graphics cards for sale w/drivers for \nAutoCAD R11. Display list proccessing is done thr..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 2833,
+            "score": 0.49365,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "ok, i have a 486dx50(ISA) w/ Diamond Stealth VRAM 1MB.\nI was really satisfied w/ its performance in windows.\nbut now mor..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 5240,
+            "score": 0.49035,
+            "category": "comp.sys.ibm.pc.hardware",
+            "text_snippet": "Due to the large amount of request for 3dbench of ET4000/W32,\nI finally can get a 3dbench v1.0 from a ftp site.\n\nThe 3db..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 4169,
+            "score": 0.46114,
+            "category": "comp.os.ms-windows.misc",
+            "text_snippet": "On ftp.cica.indiana.edu in pub/pc/win3/misc/winadv.zip is a writeup by\nSteve Gibson of InfoWorld with winbench 3.11 and ..."
+          }
+        ]
+      }
+    }
+  },
+  "query_2": {
+    "query": "How does public-key cryptography and RSA encryption keep web data secure?",
+    "metrics": {
+      "cosine": {
+        "latency_ms": 17.513,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 5569,
+            "score": 0.47304,
+            "category": "sci.crypt",
+            "text_snippet": "Archive-name: cryptography-faq/part06\nLast-modified: 1993/4/15\n\n\nFAQ for sci.crypt, part 6: Public-Key Cryptography\n\nThi..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 214,
+            "score": 0.4165,
+            "category": "sci.crypt",
+            "text_snippet": "brad@clarinet.com (Brad Templeton):\n}And yes, this has to be a public key system or it would be almost\n}impossible to ha..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 216,
+            "score": 0.39551,
+            "category": "sci.crypt",
+            "text_snippet": "What???  This is an incredible statement!  The NSA tried to suppress\npublic key crypto and RSA, and yet they claim to en..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 3398,
+            "score": 0.37007,
+            "category": "sci.crypt",
+            "text_snippet": "Note:     The following was released by the White House today in\n          conjunction with the announcement of the Clip..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 765,
+            "score": 0.35863,
+            "category": "sci.crypt",
+            "text_snippet": "There is a description of something called a \"fair crypto system\" in the\nMay 1993 issue of BYTE, p. 134, attributed to M..."
+          }
+        ]
+      },
+      "euclidean": {
+        "latency_ms": 13.306,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 5569,
+            "score": 1.0266,
+            "category": "sci.crypt",
+            "text_snippet": "Archive-name: cryptography-faq/part06\nLast-modified: 1993/4/15\n\n\nFAQ for sci.crypt, part 6: Public-Key Cryptography\n\nThi..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 214,
+            "score": 1.08028,
+            "category": "sci.crypt",
+            "text_snippet": "brad@clarinet.com (Brad Templeton):\n}And yes, this has to be a public key system or it would be almost\n}impossible to ha..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 216,
+            "score": 1.09954,
+            "category": "sci.crypt",
+            "text_snippet": "What???  This is an incredible statement!  The NSA tried to suppress\npublic key crypto and RSA, and yet they claim to en..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 3398,
+            "score": 1.12243,
+            "category": "sci.crypt",
+            "text_snippet": "Note:     The following was released by the White House today in\n          conjunction with the announcement of the Clip..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 765,
+            "score": 1.13258,
+            "category": "sci.crypt",
+            "text_snippet": "There is a description of something called a \"fair crypto system\" in the\nMay 1993 issue of BYTE, p. 134, attributed to M..."
+          }
+        ]
+      },
+      "dot": {
+        "latency_ms": 11.299,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 5569,
+            "score": 0.47304,
+            "category": "sci.crypt",
+            "text_snippet": "Archive-name: cryptography-faq/part06\nLast-modified: 1993/4/15\n\n\nFAQ for sci.crypt, part 6: Public-Key Cryptography\n\nThi..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 214,
+            "score": 0.4165,
+            "category": "sci.crypt",
+            "text_snippet": "brad@clarinet.com (Brad Templeton):\n}And yes, this has to be a public key system or it would be almost\n}impossible to ha..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 216,
+            "score": 0.39551,
+            "category": "sci.crypt",
+            "text_snippet": "What???  This is an incredible statement!  The NSA tried to suppress\npublic key crypto and RSA, and yet they claim to en..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 3398,
+            "score": 0.37007,
+            "category": "sci.crypt",
+            "text_snippet": "Note:     The following was released by the White House today in\n          conjunction with the announcement of the Clip..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 765,
+            "score": 0.35863,
+            "category": "sci.crypt",
+            "text_snippet": "There is a description of something called a \"fair crypto system\" in the\nMay 1993 issue of BYTE, p. 134, attributed to M..."
+          }
+        ]
+      }
+    }
+  },
+  "query_3": {
+    "query": "What are the latest discoveries about planetary orbits and NASA space shuttle launches?",
+    "metrics": {
+      "cosine": {
+        "latency_ms": 25.8,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 3935,
+            "score": 0.46604,
+            "category": "sci.space",
+            "text_snippet": "The most current orbital elements from the NORAD two-line element sets are\ncarried on the Celestial BBS, (513) 427-0674,..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 813,
+            "score": 0.45977,
+            "category": "sci.space",
+            "text_snippet": "The most current orbital elements from the NORAD two-line element sets are\ncarried on the Celestial BBS, (513) 427-0674,..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 5465,
+            "score": 0.42781,
+            "category": "sci.electronics",
+            "text_snippet": "From article <1993Apr27.004240.24401@csi.jpl.nasa.gov>, by eldred@rrunner.jpl.nasa.gov (Dan Eldred):..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 676,
+            "score": 0.42159,
+            "category": "sci.space",
+            "text_snippet": "Hello, \n \nI am new to this news group, but I need some info.  I am \ncurrently doing a project for a class on the Interne..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 1599,
+            "score": 0.40408,
+            "category": "sci.space",
+            "text_snippet": "Well,  you better not get the shuttle as your launch vehicle.\n\nand most ELV's have too  far of a backlog for political m..."
+          }
+        ]
+      },
+      "euclidean": {
+        "latency_ms": 13.372,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 3935,
+            "score": 1.0334,
+            "category": "sci.space",
+            "text_snippet": "The most current orbital elements from the NORAD two-line element sets are\ncarried on the Celestial BBS, (513) 427-0674,..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 813,
+            "score": 1.03945,
+            "category": "sci.space",
+            "text_snippet": "The most current orbital elements from the NORAD two-line element sets are\ncarried on the Celestial BBS, (513) 427-0674,..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 5465,
+            "score": 1.06976,
+            "category": "sci.electronics",
+            "text_snippet": "From article <1993Apr27.004240.24401@csi.jpl.nasa.gov>, by eldred@rrunner.jpl.nasa.gov (Dan Eldred):..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 676,
+            "score": 1.07555,
+            "category": "sci.space",
+            "text_snippet": "Hello, \n \nI am new to this news group, but I need some info.  I am \ncurrently doing a project for a class on the Interne..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 1599,
+            "score": 1.09172,
+            "category": "sci.space",
+            "text_snippet": "Well,  you better not get the shuttle as your launch vehicle.\n\nand most ELV's have too  far of a backlog for political m..."
+          }
+        ]
+      },
+      "dot": {
+        "latency_ms": 10.446,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 3935,
+            "score": 0.46604,
+            "category": "sci.space",
+            "text_snippet": "The most current orbital elements from the NORAD two-line element sets are\ncarried on the Celestial BBS, (513) 427-0674,..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 813,
+            "score": 0.45977,
+            "category": "sci.space",
+            "text_snippet": "The most current orbital elements from the NORAD two-line element sets are\ncarried on the Celestial BBS, (513) 427-0674,..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 5465,
+            "score": 0.42781,
+            "category": "sci.electronics",
+            "text_snippet": "From article <1993Apr27.004240.24401@csi.jpl.nasa.gov>, by eldred@rrunner.jpl.nasa.gov (Dan Eldred):..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 676,
+            "score": 0.42159,
+            "category": "sci.space",
+            "text_snippet": "Hello, \n \nI am new to this news group, but I need some info.  I am \ncurrently doing a project for a class on the Interne..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 1599,
+            "score": 0.40408,
+            "category": "sci.space",
+            "text_snippet": "Well,  you better not get the shuttle as your launch vehicle.\n\nand most ELV's have too  far of a backlog for political m..."
+          }
+        ]
+      }
+    }
+  },
+  "query_4": {
+    "query": "What is the standard maintenance procedure for adjusting motorcycle clutch cables?",
+    "metrics": {
+      "cosine": {
+        "latency_ms": 16.96,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 4973,
+            "score": 0.42933,
+            "category": "rec.motorcycles",
+            "text_snippet": "It is available through some dealerships, who in turn have to back\norder it from the manufacturer directly.  Each one is..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 3200,
+            "score": 0.38537,
+            "category": "sci.electronics",
+            "text_snippet": "I live up in British Columbia, Canada.The cable company I use is called\nRogers Cable. Does anyone know of their scrambli..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 1276,
+            "score": 0.36569,
+            "category": "rec.motorcycles",
+            "text_snippet": "I'm about to undertake changing the fork seals on my '88 EX500.  My Clymer\nmanual says I need the following tools from K..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 5947,
+            "score": 0.36274,
+            "category": "rec.motorcycles",
+            "text_snippet": "A friend of mine (who's probably reading this right now) just bought a new\nYamaha Virago 750.  After spending 1-2 hours ..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 4694,
+            "score": 0.35653,
+            "category": "rec.motorcycles",
+            "text_snippet": "I learned when riding bareback as a kid to \"palm-reign\", by just \npushing on the right side of the horse's neck with you..."
+          }
+        ]
+      },
+      "euclidean": {
+        "latency_ms": 13.779,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 4973,
+            "score": 1.06834,
+            "category": "rec.motorcycles",
+            "text_snippet": "It is available through some dealerships, who in turn have to back\norder it from the manufacturer directly.  Each one is..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 3200,
+            "score": 1.10872,
+            "category": "sci.electronics",
+            "text_snippet": "I live up in British Columbia, Canada.The cable company I use is called\nRogers Cable. Does anyone know of their scrambli..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 1276,
+            "score": 1.12633,
+            "category": "rec.motorcycles",
+            "text_snippet": "I'm about to undertake changing the fork seals on my '88 EX500.  My Clymer\nmanual says I need the following tools from K..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 5947,
+            "score": 1.12894,
+            "category": "rec.motorcycles",
+            "text_snippet": "A friend of mine (who's probably reading this right now) just bought a new\nYamaha Virago 750.  After spending 1-2 hours ..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 4694,
+            "score": 1.13443,
+            "category": "rec.motorcycles",
+            "text_snippet": "I learned when riding bareback as a kid to \"palm-reign\", by just \npushing on the right side of the horse's neck with you..."
+          }
+        ]
+      },
+      "dot": {
+        "latency_ms": 7.168,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 4973,
+            "score": 0.42933,
+            "category": "rec.motorcycles",
+            "text_snippet": "It is available through some dealerships, who in turn have to back\norder it from the manufacturer directly.  Each one is..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 3200,
+            "score": 0.38537,
+            "category": "sci.electronics",
+            "text_snippet": "I live up in British Columbia, Canada.The cable company I use is called\nRogers Cable. Does anyone know of their scrambli..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 1276,
+            "score": 0.36569,
+            "category": "rec.motorcycles",
+            "text_snippet": "I'm about to undertake changing the fork seals on my '88 EX500.  My Clymer\nmanual says I need the following tools from K..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 5947,
+            "score": 0.36274,
+            "category": "rec.motorcycles",
+            "text_snippet": "A friend of mine (who's probably reading this right now) just bought a new\nYamaha Virago 750.  After spending 1-2 hours ..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 4694,
+            "score": 0.35653,
+            "category": "rec.motorcycles",
+            "text_snippet": "I learned when riding bareback as a kid to \"palm-reign\", by just \npushing on the right side of the horse's neck with you..."
+          }
+        ]
+      }
+    }
+  },
+  "query_5": {
+    "query": "How do medical researchers diagnose autoimmune diseases and treat viral infections?",
+    "metrics": {
+      "cosine": {
+        "latency_ms": 13.888,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 2024,
+            "score": 0.44389,
+            "category": "sci.med",
+            "text_snippet": "Outbreaks of a chronic-mono-like entity were originally called EBS (or\nsome variant thereof) because most of the people ..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 2766,
+            "score": 0.43473,
+            "category": "sci.med",
+            "text_snippet": "I have a friend who has just been diagnosed with Lupus, and I know nothing\nabout this disease. The only thing I do know ..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 1902,
+            "score": 0.42139,
+            "category": "sci.med",
+            "text_snippet": "Sure there are quacks. There are quacks who don't treat and quacks who\ntreat. One's that refuse to diagnose and ones tha..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 66,
+            "score": 0.40535,
+            "category": "sci.med",
+            "text_snippet": "I think in Illinois venereal disease (the old ones, not AIDS) was included.\nSyphillis was, for sure.\n\n\n\n\n-- \n-----------..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 3985,
+            "score": 0.39724,
+            "category": "sci.med",
+            "text_snippet": "-*-----\n\n\nI hope Gordon Banks did not mean to imply that notions such as\nhard-to-see candida infections causing various ..."
+          }
+        ]
+      },
+      "euclidean": {
+        "latency_ms": 14.625,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 2024,
+            "score": 1.05462,
+            "category": "sci.med",
+            "text_snippet": "Outbreaks of a chronic-mono-like entity were originally called EBS (or\nsome variant thereof) because most of the people ..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 2766,
+            "score": 1.06327,
+            "category": "sci.med",
+            "text_snippet": "I have a friend who has just been diagnosed with Lupus, and I know nothing\nabout this disease. The only thing I do know ..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 1902,
+            "score": 1.07574,
+            "category": "sci.med",
+            "text_snippet": "Sure there are quacks. There are quacks who don't treat and quacks who\ntreat. One's that refuse to diagnose and ones tha..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 66,
+            "score": 1.09055,
+            "category": "sci.med",
+            "text_snippet": "I think in Illinois venereal disease (the old ones, not AIDS) was included.\nSyphillis was, for sure.\n\n\n\n\n-- \n-----------..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 3985,
+            "score": 1.09797,
+            "category": "sci.med",
+            "text_snippet": "-*-----\n\n\nI hope Gordon Banks did not mean to imply that notions such as\nhard-to-see candida infections causing various ..."
+          }
+        ]
+      },
+      "dot": {
+        "latency_ms": 3.286,
+        "top_5": [
+          {
+            "rank": 1,
+            "doc_id": 2024,
+            "score": 0.44389,
+            "category": "sci.med",
+            "text_snippet": "Outbreaks of a chronic-mono-like entity were originally called EBS (or\nsome variant thereof) because most of the people ..."
+          },
+          {
+            "rank": 2,
+            "doc_id": 2766,
+            "score": 0.43473,
+            "category": "sci.med",
+            "text_snippet": "I have a friend who has just been diagnosed with Lupus, and I know nothing\nabout this disease. The only thing I do know ..."
+          },
+          {
+            "rank": 3,
+            "doc_id": 1902,
+            "score": 0.42139,
+            "category": "sci.med",
+            "text_snippet": "Sure there are quacks. There are quacks who don't treat and quacks who\ntreat. One's that refuse to diagnose and ones tha..."
+          },
+          {
+            "rank": 4,
+            "doc_id": 66,
+            "score": 0.40535,
+            "category": "sci.med",
+            "text_snippet": "I think in Illinois venereal disease (the old ones, not AIDS) was included.\nSyphillis was, for sure.\n\n\n\n\n-- \n-----------..."
+          },
+          {
+            "rank": 5,
+            "doc_id": 3985,
+            "score": 0.39724,
+            "category": "sci.med",
+            "text_snippet": "-*-----\n\n\nI hope Gordon Banks did not mean to imply that notions such as\nhard-to-see candida infections causing various ..."
+          }
+        ]
+      }
+    }
+  }
+}
