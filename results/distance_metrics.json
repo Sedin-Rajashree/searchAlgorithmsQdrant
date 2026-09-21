@@ -3,7 +3,7 @@
     "query": "What are the best GPU driver settings for 3D graphics rendering performance?",
     "metrics": {
       "cosine": {
-        "latency_ms": 13.348,
+        "latency_ms": 21.159,
         "top_5": [
           {
             "rank": 1,
@@ -43,7 +43,7 @@
         ]
       },
       "euclidean": {
-        "latency_ms": 16.924,
+        "latency_ms": 4.784,
         "top_5": [
           {
             "rank": 1,
@@ -55,7 +55,7 @@
           {
             "rank": 2,
             "doc_id": 567,
-            "score": 1.00315,
+            "score": 1.00316,
             "category": "misc.forsale",
             "text_snippet": "I have the following Nth Engine graphics cards for sale w/drivers for \nAutoCAD R11. Display list proccessing is done thr..."
           },
@@ -83,7 +83,7 @@
         ]
       },
       "dot": {
-        "latency_ms": 11.978,
+        "latency_ms": 2.303,
         "top_5": [
           {
             "rank": 1,
@@ -128,7 +128,7 @@
     "query": "How does public-key cryptography and RSA encryption keep web data secure?",
     "metrics": {
       "cosine": {
-        "latency_ms": 17.513,
+        "latency_ms": 2.698,
         "top_5": [
           {
             "rank": 1,
@@ -168,7 +168,7 @@
         ]
       },
       "euclidean": {
-        "latency_ms": 13.306,
+        "latency_ms": 2.448,
         "top_5": [
           {
             "rank": 1,
@@ -208,7 +208,7 @@
         ]
       },
       "dot": {
-        "latency_ms": 11.299,
+        "latency_ms": 2.166,
         "top_5": [
           {
             "rank": 1,
@@ -253,7 +253,7 @@
     "query": "What are the latest discoveries about planetary orbits and NASA space shuttle launches?",
     "metrics": {
       "cosine": {
-        "latency_ms": 25.8,
+        "latency_ms": 3.198,
         "top_5": [
           {
             "rank": 1,
@@ -293,7 +293,7 @@
         ]
       },
       "euclidean": {
-        "latency_ms": 13.372,
+        "latency_ms": 2.582,
         "top_5": [
           {
             "rank": 1,
@@ -333,7 +333,7 @@
         ]
       },
       "dot": {
-        "latency_ms": 10.446,
+        "latency_ms": 2.066,
         "top_5": [
           {
             "rank": 1,
@@ -378,7 +378,7 @@
     "query": "What is the standard maintenance procedure for adjusting motorcycle clutch cables?",
     "metrics": {
       "cosine": {
-        "latency_ms": 16.96,
+        "latency_ms": 2.73,
         "top_5": [
           {
             "rank": 1,
@@ -418,7 +418,7 @@
         ]
       },
       "euclidean": {
-        "latency_ms": 13.779,
+        "latency_ms": 2.214,
         "top_5": [
           {
             "rank": 1,
@@ -458,7 +458,7 @@
         ]
       },
       "dot": {
-        "latency_ms": 7.168,
+        "latency_ms": 2.01,
         "top_5": [
           {
             "rank": 1,
@@ -503,7 +503,7 @@
     "query": "How do medical researchers diagnose autoimmune diseases and treat viral infections?",
     "metrics": {
       "cosine": {
-        "latency_ms": 13.888,
+        "latency_ms": 2.978,
         "top_5": [
           {
             "rank": 1,
@@ -543,7 +543,7 @@
         ]
       },
       "euclidean": {
-        "latency_ms": 14.625,
+        "latency_ms": 2.228,
         "top_5": [
           {
             "rank": 1,
@@ -583,7 +583,7 @@
         ]
       },
       "dot": {
-        "latency_ms": 3.286,
+        "latency_ms": 2.109,
         "top_5": [
           {
             "rank": 1,

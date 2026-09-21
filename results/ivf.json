@@ -1,23 +1,23 @@
 {
-  "build_time_ms": 3322.21,
+  "build_time_ms": 2538.95,
   "experiments": [
     {
       "nprobe": 1,
       "avg_candidates_checked": 207.6,
       "avg_overlap_percent": 72.0,
-      "avg_latency_ms": 0.168
+      "avg_latency_ms": 0.128
     },
     {
       "nprobe": 8,
       "avg_candidates_checked": 1599.2,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 4.331
+      "avg_latency_ms": 5.568
     },
     {
       "nprobe": 16,
       "avg_candidates_checked": 3120.6,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 3.571
+      "avg_latency_ms": 2.712
     }
   ]
 }

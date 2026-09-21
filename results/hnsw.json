@@ -1,6 +1,6 @@
 {
   "exact_brute_force": {
-    "avg_latency_ms": 14.382,
+    "avg_latency_ms": 2.275,
     "avg_overlap_percent": 100.0
   },
   "experiments": [
@@ -9,42 +9,42 @@
       "collection": "newsgroups_hnsw_default",
       "hnsw_ef": 16,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 12.762
+      "avg_latency_ms": 2.222
     },
     {
       "config": "HNSW Default (m=16, ef_construct=100)",
       "collection": "newsgroups_hnsw_default",
       "hnsw_ef": 64,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 10.747
+      "avg_latency_ms": 2.448
     },
     {
       "config": "HNSW Default (m=16, ef_construct=100)",
       "collection": "newsgroups_hnsw_default",
       "hnsw_ef": 128,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 16.04
+      "avg_latency_ms": 2.353
     },
     {
       "config": "HNSW Under-Tuned (m=4, ef_construct=8)",
       "collection": "newsgroups_hnsw_undertuned",
       "hnsw_ef": 16,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 9.191
+      "avg_latency_ms": 2.375
     },
     {
       "config": "HNSW Under-Tuned (m=4, ef_construct=8)",
       "collection": "newsgroups_hnsw_undertuned",
       "hnsw_ef": 64,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 9.814
+      "avg_latency_ms": 2.28
     },
     {
       "config": "HNSW Under-Tuned (m=4, ef_construct=8)",
       "collection": "newsgroups_hnsw_undertuned",
       "hnsw_ef": 128,
       "avg_overlap_percent": 100.0,
-      "avg_latency_ms": 9.817
+      "avg_latency_ms": 2.291
     }
   ]
 }
