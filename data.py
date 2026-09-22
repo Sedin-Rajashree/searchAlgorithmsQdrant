@@ -23,7 +23,6 @@ def prepare_dataset():
     
     for idx, (text, category_idx) in enumerate(zip(newsgroups.data, newsgroups.target)):
         cleaned_text = text.strip()
-        # Filter out empty or trivially short documents
         if len(cleaned_text) < 30:
             continue
         
@@ -31,19 +30,17 @@ def prepare_dataset():
             "id": len(documents),
             "original_id": idx,
             "category": category_names[category_idx],
-            "text": cleaned_text[:1500]  # Truncate extremely long docs to 1500 chars for efficiency
+            "text": cleaned_text[:1500] 
         })
     
     print(f"Total valid documents loaded: {len(documents)}")
-    
-    # Reproducible sampling
+
     random.seed(SEED)
     if len(documents) > SAMPLE_SIZE:
         sampled_docs = random.sample(documents, SAMPLE_SIZE)
     else:
         sampled_docs = documents
         
-    # Re-index sampled documents 0..N-1
     for i, doc in enumerate(sampled_docs):
         doc["id"] = i
         

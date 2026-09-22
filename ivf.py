@@ -25,16 +25,11 @@ class IVFIndex:
         start_time = time.perf_counter()
         
         self.vectors = vectors.astype(np.float32)
-        # Ensure vectors are normalized for cosine distance calculations
-        norms = np.linalg.norm(self.vectors, axis=1, keepdims=True)
-        norms[norms == 0] = 1e-10
-        self.normalized_vectors = self.vectors / norms
         
         self.kmeans = KMeans(n_clusters=self.n_clusters, random_state=self.random_state, n_init=10)
-        labels = self.kmeans.fit_predict(self.normalized_vectors)
+        labels = self.kmeans.fit_predict(self.vectors)
         self.centroids = self.kmeans.cluster_centers_
         
-        # Build inverted lists mapping cluster_id -> list of vector indices
         self.inverted_lists = {c: [] for c in range(self.n_clusters)}
         for doc_id, cluster_id in enumerate(labels):
             self.inverted_lists[cluster_id].append(doc_id)
@@ -58,11 +53,7 @@ class IVFIndex:
             
         start_time = time.perf_counter()
         
-        # 1. Normalize query vector
         q = np.array(query_vector, dtype=np.float32)
-        q_norm = np.linalg.norm(q)
-        if q_norm > 0:
-            q = q / q_norm
             
         # 2. Find nprobe nearest centroids (using cosine similarity to centroids)
         centroid_norms = np.linalg.norm(self.centroids, axis=1)
@@ -84,7 +75,7 @@ class IVFIndex:
             return [], latency_ms, 0
             
         # 4. Exact search over candidate vectors
-        candidate_vectors = self.normalized_vectors[candidate_ids]
+        candidate_vectors = self.vectors[candidate_ids]
         scores = np.dot(candidate_vectors, q)
         
         # 5. Get top_k candidates
